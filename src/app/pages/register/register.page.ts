@@ -14,14 +14,14 @@ export class RegisterPage {
 
   constructor(private authService: AuthService) {}
 
-  async registerUser() {
+  async onRegister() {
     try {
       const user = await this.authService.register(this.email, this.password, this.name);
       console.log('✅ Usuario registrado:', user);
-      alert('Registro exitoso ');
+      alert('Usuario creado con éxito');
     } catch (error: any) {
-      console.error(error);
-      alert('❌ Error: ' + error.message);
+      console.error('❌ Error en el registro:', error.message);
+      alert('Error: ' + error.message);
     }
   }
 }

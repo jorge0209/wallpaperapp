@@ -5,7 +5,7 @@
 export const environment = {
   production: false,
   firebaseConfig: {
-    apiKey: "AIzaSyDQPSwed1rjCj1BGKSHSYbT45975Pjb0",
+    apiKey: "AIzaSyDQDSwed1ri_Cj1BGKSHSYbBT45975Pjb0",
     authDomain: "appwallpaper-9123b.firebaseapp.com",
     projectId: "appwallpaper-9123b",
     storageBucket: "appwallpaper-9123b.appspot.com",

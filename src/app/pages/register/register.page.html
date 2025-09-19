@@ -7,18 +7,18 @@
 <ion-content class="ion-padding">
   <ion-item>
     <ion-label position="floating">Nombre</ion-label>
-    <ion-input [(ngModel)]="name" type="text"></ion-input>
+    <ion-input [(ngModel)]="name"></ion-input>
   </ion-item>
 
   <ion-item>
     <ion-label position="floating">Correo</ion-label>
-    <ion-input [(ngModel)]="email" type="email"></ion-input>
+    <ion-input type="email" [(ngModel)]="email"></ion-input>
   </ion-item>
 
   <ion-item>
     <ion-label position="floating">Contraseña</ion-label>
-    <ion-input [(ngModel)]="password" type="password"></ion-input>
+    <ion-input type="password" [(ngModel)]="password"></ion-input>
   </ion-item>
 
-  <ion-button expand="block" (click)="registerUser()">Registrarse</ion-button>
+  <ion-button expand="block" (click)="onRegister()">REGISTRARSE</ion-button>
 </ion-content>
